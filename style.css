@@ -356,7 +356,7 @@ a {
         display: flex;
         flex-direction: row;
         align-items: center;
-        gap: 16px
+        padding-right: 16px;
     }
 
     .mobile-screen a {
@@ -431,8 +431,14 @@ a {
 
 
     .nav__mobile-screen__btn {
+        display: flex;
+        flex-direction: row;
         padding: 0;
-        margin: 0;
+        gap: 16px;
+    }
+
+    .mobile-screen {
+        margin-left: auto;
     }
 
     .nav__mobile-screen__btn:active {
