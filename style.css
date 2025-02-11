@@ -326,7 +326,7 @@ a {
 }
 
 
-@media (max-width: 320px) {
+@media (max-width: 525px) {
     .nav__btn {
         display: none;
     }
