@@ -453,7 +453,7 @@ a {
 .upper-shadow {
     display: flex;
     width: 100%;
-    box-shadow: 0 1px 20px #D9FFF5;
+    box-shadow: 0 0 5px #D9FFF5;
 }
 
 
