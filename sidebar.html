@@ -6,12 +6,11 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="sidebar-style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-<div class="sidebar">
-    <div class="upper-nav">
+<aside class="sidebar">
+    <header class="upper-nav">
         <button class="burger">
             <img src="image/burger-closed.svg" alt="Открыть меню">
         </button>
@@ -21,9 +20,8 @@
         <button class="search-btn">
             <img src="image/icon-search.svg" alt="">
         </button>
-    </div>
-
-    <div class="nav-list">
+    </header>
+    <nav class="nav-list">
         <ul class="service-list">
             <li><a href="#" class="nav-link">Ремонт</a></li>
             <li><a href="#" class="nav-link">Услуги и сервисы</a></li>
@@ -34,37 +32,29 @@
             <li><a href="#" class="nav-link">Наши сервисные центры</a></li>
             <li><a href="#" class="nav-link">Контакты</a></li>
         </ul>
-    </div>
-
-
-            <div class="contacts-list">
-                <ul class="contacts">
-                    <li class="icon">
-                        <img src="image/icon-tel.svg" alt="telephone">
-                        <img src="image/icon-chat.svg" alt="sms">
-                        <img src="image/icon-profile.svg" alt="profile">
-                    </li>
-                    <li><a href="mailto:mail@cps.com" class="email-link">mail@cps.com</a></li>
-                    <li><a href="tel:8 800 890 8900" class="number-link">8 800 890 8900</a></li>
-                </ul>
-            </div>
-
-    <div class="languages">
-        <ul>
-            <li><button class="lang-btn">RU</button></li>
-            <li><button class="lang-btn">EN</button></li>
-            <li><button class="lang-btn">CH</button></li>
+    </nav>
+    <footer class="contacts-list">
+        <ul class="contacts">
+            <li class="icon">
+                <button><img src="image/icon-tel.svg" alt="telephone"></button>
+                <button><img src="image/icon-chat.svg" alt="sms"></button>
+                <button><img src="image/icon-profile.svg" alt="profile"></button>
+            </li>
+            <li><a href="mailto:mail@cps.com" class="email-link">mail@cps.com</a></li>
+            <li><a href="tel:8 800 890 8900" class="number-link">8 800 890 8900</a></li>
         </ul>
-    </div>
-
-
-
-
-
-
-
-</div>
-
-
+    </footer>
+    <ul class="languages">
+        <li>
+            <button>RU</button>
+        </li>
+        <li>
+            <button>EN</button>
+        </li>
+        <li>
+            <button>CH</button>
+        </li>
+    </ul>
+</aside>
 </body>
 </html>

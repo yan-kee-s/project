@@ -1,6 +1,5 @@
 body {
     margin: 0;
-    background-color: #FFFFFF;
     padding: 0;
 }
 
@@ -26,33 +25,34 @@ body {
     margin-right: auto;
 }
 
-    .upper-nav {
-        display: flex;
-        width: auto;
-        height: 115px;
-        align-items: center;
-        gap: 16px;
-    }
+.upper-nav {
+    display: flex;
+    width: auto;
+    height: 115px;
+    align-items: center;
+    gap: 16px;
+}
 
-    .nav-list {
-        display: flex;
-        margin: 0;
-        width: 222px;
-        height: 876px;
-    }
+.nav-list {
+    display: flex;
+    margin: 0;
+    width: 222px;
+    height: 876px;
+}
 
-    .service-list {
-        padding-left: 0px;
-        list-style-type: none;
-        display: flex;
-        flex-direction: column;
-        gap: 40px;
-        margin: 0;
-        height: 500px;
-        font-family: 'TT Lakes', sans-serif;
-        font-weight: 500;
-        font-size: 16px;;
-    }
+.service-list {
+    padding-left: 0px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin: 0;
+    height: 500px;
+    font-family: 'TT Lakes', sans-serif;
+    font-weight: 500;
+    font-size: 16px;;
+}
+
 
 a {
     display: block;
@@ -60,13 +60,16 @@ a {
     color: black;
 }
 
-    .service-list li:hover a{
+.service-list li:hover a {
 
-        transition: opacity 0.5s ease;
-        opacity: 0.4;
-        cursor: pointer;
-    }
+    transition: opacity 0.5s ease;
+    opacity: 0.4;
+    cursor: pointer;
+}
 
+a:active {
+    color: gray;
+}
 
 
 .service-list li {
@@ -96,61 +99,61 @@ a {
 }
 
 
-
 .contacts-list {
-        display: flex;
-        margin: 0;
-    }
-
-    .contacts li:nth-child(2) {
-        font-family: 'TT Lakes', sans-serif;
-        font-weight: 500;
-        font-size: 16px;
+    display: flex;
+    margin: 0;
 }
 
-    .contacts li:nth-child(3) {
-        font-family: 'TT Lakes', sans-serif;
-        font-weight: 700;
-        font-size: 24px;
-    }
+.contacts li:nth-child(2) {
+    font-family: 'TT Lakes', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.contacts li:nth-child(3) {
+    font-family: 'TT Lakes', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+}
 
 
-    .contacts {
-        margin: 0;
-        display: flex;
-        flex-direction: column;
-        gap: 15px;
-        list-style-type: none;
-        padding-left: 24px;
-    }
+.contacts {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    list-style-type: none;
+    padding-left: 24px;
+}
 
-    .lang-btn {
-        border: none;
-        background-color: transparent;
-        font-family: 'TT Lakes', sans-serif;
-        font-weight: 500;
-        font-size: 16px;
-        padding: 0;
-        margin: 0;
-    }
+.languages button {
+    border: none;
+    background-color: transparent;
+    font-family: 'TT Lakes', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+}
 
-.lang-btn:hover {
+.languages button:hover {
     transition: opacity 0.5s ease;
     opacity: 0.4;
     cursor: pointer;
 }
 
 
-    .languages ul {
-        display: flex;
-        padding-left: 24px;
-        flex-direction: row;
-        list-style-type: none;
-        gap: 15px;
-        margin: 0;
-        padding-top: 40px;
-        padding-bottom: 32px;
-    }
+.languages {
+    display: flex;
+    padding-left: 24px;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 15px;
+    margin: 0;
+    padding-top: 40px;
+    padding-bottom: 32px;
+}
+
 .burger {
     margin: 0;
     padding-left: 24px;
@@ -188,6 +191,11 @@ a {
 .icon {
     display: flex;
     gap: 16px;
+}
+
+.icon button {
+    border: none;
+    background-color: transparent;
 }
 
 .icon img:hover {
